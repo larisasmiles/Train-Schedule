@@ -13,11 +13,6 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-    
-    <!-- Additional Styling -->
-    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
-
      <!-- Firebase Reference -->
      <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
 
@@ -27,25 +22,21 @@
         <div class="jumbotron"  >
             <div class="row">
                 <div class="col-md-3">
-                        <img src='./assets/images/traingif.gif' style="margin: 10px;">
+                        <img src='./assets/images/train-2.jpeg' style="margin: 10px;">
                 </div>
-                <div class="col-md-6 text-center" style="font-family: 'Pangolin', cursive;">
-                    <h1>Tokyo Train Station</h1>
-                    <h3>
-                        Train Schedule
-                    </h3>
+                <div class="col-md-6 text-center" style="font-family: helvetica;">
+                    <h1>Lala's Train Station</h1>
+                  
                     <h4>Current time</h4>
                     <h2 id="currentTime"></h2>
                 </div>
                 <div class="col-md-3"  >
-                        <img src='./assets/images/traingif.gif' style="margin: 10px;" >
+                        <img src='./assets/images/train-3.jpeg' style="margin: 10px;" >
                 </div>
             </div>
         </div>	
    
-
-    <!-- <div class="container" style="font-family: 'Pangolin', cursive; "> -->
-        <div class="row" style="font-family: 'Pangolin', cursive; ">
+        <div class="row" style="font-family: 'helvectica; ">
             <div class="col-md-1"></div>
 			<div class = "col-md-10">
                 <div id="scheduleRow" class="panel panel-primary"><br>
@@ -88,43 +79,37 @@
 								<label  style="font-size:20px; " for="destination">Destination</label><br>
 								<input type="text" style="width:100%;" id="destination" name="destination" class="dataEntry" >
                                 
-                            </p>
+              </p>
 							<p>
 								<label  style="font-size:20px; " for="frequency">frequency (min)</label><br>	
 								<input type="text" style="width:100%;"  id="frequency" name="frequency" class="dataEntry" >
-                            </p>
-                            <p>
+              </p>
+              <p>
 								<label  style="font-size:20px; " for="nextArrival">First Arrival 24 hrs format</label><br>	
 								<input type="text" style="width:100%;"  id="nextArrival" name="nextArrival" class="dataEntry" >
 							</p>
 						
-                            <button id = "submitBtn" style="font-size:20px;" class="btn btn-success">Submit</button>
+                <button id = "submitBtn" style="font-size:20px;" class="btn btn-success">Submit</button>
                          
 						</form>
-                    </div>
+          </div>
                     
-                    <!-- <div class="panel-heading" style="background-color:black" >Delete Train</div>
+        <div class="panel-heading" style="background-color:black" >Delete Train</div>
 					<div class="panel-body">
 						<form id="form" action="#">
 							<div class="row">
-                                <div class="col-md-9">
-                                    <label style="font-size:20px; " for="train">Train Name</label><br>
-                                    <input type="text" style="width:100%;" id="trainToDelete"   class="dataEntry" autofocus>
-                                </div>
-                                <div class="col-md-3">
-                                        <button id = "deleteBtn" style="font-size:20px; float: right;" class="btn btn-success">Delete</button>
-                                </div>
-							
-                            
-                            
-                        </div>
+                <div class="col-md-9">
+                    <label style="font-size:20px; " for="train">Train Name</label><br>
+                    <input type="text" style="width:100%;" id="trainToDelete"   class="dataEntry" autofocus>
+                </div>
+                <div class="col-md-3">
+                    <button id = "deleteBtn" style="font-size:20px; float: right;" class="btn btn-success">Delete</button>
+                </div>
+              </div>
 						</form>
-				</div> -->
-            </div>
-            
-           
+				</div>
+      </div>
 		</div>
-
         <div class="col-md-1"></div>
     </div>
 

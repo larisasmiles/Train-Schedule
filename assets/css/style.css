@@ -1,0 +1,16 @@
+body{
+  background-image: url(../images/train-route.jpeg);
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.container{
+  background-color: rgba(245, 245, 245, 0);
+}
+
+
+h1{
+  font-size: 40px;
+}
